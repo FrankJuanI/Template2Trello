@@ -130,3 +130,19 @@ p {
   font-weight: 400;
   color: #737373;
 }
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    min-height: 800px;
+  }
+
+  .first-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
